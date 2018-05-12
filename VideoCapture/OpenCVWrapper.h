@@ -13,5 +13,9 @@
 
 - (UIImage *) makeGray: (UIImage *) image;
 - (UIImage *) findHand: (UIImage *) image;
+- (UIImage *) HSVDetect: (UIImage *) image;
+- (UIImage *) Test: (UIImage *) image;
+
+
 
 @end

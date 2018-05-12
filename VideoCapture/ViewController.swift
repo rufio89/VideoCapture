@@ -22,7 +22,7 @@ class ViewController: UIViewController, CameraBufferDelegate {
     }
     
     func captured(image: UIImage) {
-        imageView.image = opencvWrapper.makeGray(image)
+        imageView.image = opencvWrapper.findHand(image)
     }
     
     override func didReceiveMemoryWarning() {
